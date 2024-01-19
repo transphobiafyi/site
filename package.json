@@ -12,7 +12,8 @@
     "clear": "docusaurus clear",
     "serve": "docusaurus serve",
     "write-translations": "docusaurus write-translations",
-    "write-heading-ids": "docusaurus write-heading-ids"
+    "write-heading-ids": "docusaurus write-heading-ids",
+    "postinstall": "husky install"
   },
   "dependencies": {
     "@docusaurus/core": "3.1.0",
@@ -24,8 +25,11 @@
     "react-dom": "^18.0.0"
   },
   "devDependencies": {
+    "@commitlint/cli": "^18.4.4",
+    "@commitlint/config-conventional": "^18.4.4",
     "@docusaurus/module-type-aliases": "3.1.0",
-    "@docusaurus/types": "3.1.0"
+    "@docusaurus/types": "3.1.0",
+    "husky": "^8.0.0"
   },
   "browserslist": {
     "production": [
