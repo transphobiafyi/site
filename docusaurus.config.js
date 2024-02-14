@@ -63,7 +63,7 @@ const config = {
         },
         items: [
           {
-            href: 'https://github.com/tbd/',
+            href: 'https://github.com/transphobiafyi/site',
             label: 'GitHub',
             position: 'right',
           },
